@@ -77,21 +77,62 @@
         </div>
         <div class="hexagon" id="select_hexagon_blue"></div>
         <div id="select_menu">
-            <select class="form-select form-select-lg">
-                <option><strong>Administrative & Process Support</strong></option>
-            </select>
-            <select class="form-select form-select-lg">
-                <option>Project Management Support</option>
-            </select>
-            <select class="form-select form-select-lg">
-                <option>IT-support</option>
-            </select>
-        </div>
+            <div class="select-option">
+                <div class="select-clickable" onclick="dropDown('dropdown_first')">
+                    <strong><span class="blue" data-i18n="main_select_1"></span></strong>
+                </div>
+                <div class="dropdown-table" id="dropdown_first">
+                    <div class="table-row">
+                        <strong class="table-title" data-i18n="main_select_1_acc"></strong><span class="table-content" data-i18n="main_select_1_acc_txt_1"></span>
+                    </div>
+                    <div class="table-row">
+                        <strong class="table-title" data-i18n="main_select_1_hr"></strong><span class="table-content" data-i18n="main_select_1_hr_txt"></span>
+                    </div>
+                    <div class="table-row">
+                        <strong class="table-title" data-i18n="main_select_1_ss"></strong><span class="table-content" data-i18n="main_select_1_ss_txt"></span>
+                    </div>
+                    <div class="table-row">
+                        <strong class="table-title" data-i18n="main_select_1_comp"></strong><span class="table-content" data-i18n="main_select_1_comp_txt"></span>
+                    </div>
+                    <div class="table-row">
+                        <strong class="table-title" data-i18n="main_select_1_acp"></strong><span class="table-content" data-i18n="main_select_1_acp_txt"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="select-option mt-4">
+                <div class="select-clickable" onclick="dropDown('dropdown_second')">
+                    <strong><span class="blue" data-i18n="main_select_2"></span></strong>
+                </div>
+                <div class="dropdown-table" id="dropdown_second">
+                    <div class="table-row">
+                        <strong class="table-title" data-i18n="main_select_2_psu"></strong><span class="table-content" data-i18n="main_select_2_psu_txt"></span>
+                    </div>
+                    <div class="table-row">
+                        <strong class="table-title" data-i18n="main_select_2_hr"></strong><span class="table-content" data-i18n="main_select_2_hr_txt_1"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="select-option mt-4">
+                <div class="select-clickable" onclick="dropDown('dropdown_third')">
+                    <strong><span class="blue" data-i18n="main_select_3"></span></strong>
+                </div>
+                <div class="dropdown-table" id="dropdown_third">
+                    <div class="table-row">
+                        <strong class="table-title" data-i18n="main_select_3_hs"></strong><span class="table-content" data-i18n="main_select_3_hs_txt"></span>
+                    </div>
+                    <div class="table-row">
+                        <strong class="table-title" data-i18n="main_select_3_dms"></strong><span class="table-content" data-i18n="main_select_3_dms_txt"></span>
+                    </div>
+                    <div class="table-row">
+                        <strong class="table-title" data-i18n="main_select_3_tms"></strong><span class="table-content" data-i18n="main_select_3_tms_txt"></span>
+                    </div>
+                </div>
+            </div>
     </section>
 
     <section class="bg-section" class="px-4 px-lg-5 pt-5">
         <div id="section_table_main" class="container">
-            <table id="customer_table">
+            <table id="customer_table" class="horizontal">
                 <thead>
                     <th class="text-center" data-i18n="main_table_title"></th>
                 </thead>
@@ -104,6 +145,29 @@
                             <img style="width: 100%;" src="/assets/img/homepage/logo's/g-company-part-of-Xebia-2022.png"
                                 alt="gcompany" />
                         </td>
+                        <td>
+                            <img src="/assets/img/homepage/logo's/sopachem-lifesciences-logo.jpg" alt="sopachem" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table id="customer_table" class="vertical">
+                <thead>
+                    <th class="text-center" data-i18n="main_table_title"></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <img src="/assets/img/homepage/logo's/APTCOLOGO-website.png" alt="aptco" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img style="width: 100%;" src="/assets/img/homepage/logo's/g-company-part-of-Xebia-2022.png"
+                                alt="gcompany" />
+                        </td>
+                    </tr>
+                    <tr>
                         <td>
                             <img src="/assets/img/homepage/logo's/sopachem-lifesciences-logo.jpg" alt="sopachem" />
                         </td>
