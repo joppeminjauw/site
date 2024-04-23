@@ -13120,6 +13120,10 @@ nav {
   background-color: white !important;
 }
 
+#nav_logo {
+  width: 10%;
+}
+
 main,
 section {
   color: var(--darker-blue);

@@ -9,7 +9,8 @@ h1 {
 }
 
 body {
-    overflow-y: hidden !important;
+    position: relative;
+    overflow: hidden !important;
 }
 
 #landing_section {
@@ -93,7 +94,7 @@ body {
 
     .bg-section {
         background-color: var(--bg-color);
-        z-index: -98;
+        z-index: -90;
     }
     
     #landing_section {
@@ -255,6 +256,7 @@ body {
 
     #section_admin_support img {
         width: 55%;
+        z-index: 10;
     }
 
     #section_providing_pmo {
@@ -323,7 +325,7 @@ body {
     /* 24" */
 
     #select_hexagon_blue {
-        top: 60%;
+        top: 9%;
         right: -20%;
         background-color: var(--main-blue);
         width: 1800px;
@@ -333,7 +335,7 @@ body {
     }
 
     #select_hexagon_white {
-        top: 80%;
+        top: 12.5%;
         left: -15%;
         background-color: white;
         width: 1100px;
@@ -388,12 +390,30 @@ body {
         width: 45%;
     }
 
+    #admin_hexagon_white {
+        top: 33%;
+        right: -3%;
+        background-color: white;
+        width: 850px;
+        height: 850px;
+    }
+
     #providing_support_div {
         width: 40% !important;
     }
 
     #providing_img_div {
         width: 40% !important;
+        z-index: 10;
+    }
+
+    #pmo_hexagon_white {
+        top: 45%;
+        left: -12%;
+        background-color: white;
+        width: 850px;
+        height: 850px;
+        transform: rotate(90deg);
     }
 
     #ideal_addition_div {
@@ -403,6 +423,19 @@ body {
     #section_ideal_addition img {
         width: 45%;
         margin-left: 150px;
+        z-index: 10;
+    }
+
+    #addition_hexagon_white  {
+        top: 57%;
+        right: -3%;
+        background-color: white;
+        width: 850px;
+        height: 850px;
+    }
+
+    #section_hyper_flexible {
+        margin-bottom: 150px;
     }
 
     #hyper_flexible_div {
@@ -412,13 +445,23 @@ body {
     #flexible_img_div {
         width: 40%;
         margin-right: 150px;
+        z-index: 10;
+    }
+
+    #flexible_hexagon_white {
+        top: 70%;
+        left: -12%;
+        background-color: white;
+        width: 850px;
+        height: 850px;
+        transform: rotate(90deg);
     }
 
     #section_testimonials {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin-bottom: 125px;
+        margin-bottom: 100px;
     }
 
     #testimonials_intro_div {
@@ -444,7 +487,7 @@ body {
     }
 
     #testimonial_hexagon_blue {
-        top: 530%;
+        top: 82%;
         left: 20%;
         background-color: var(--main-blue);
         width: 1700px;
