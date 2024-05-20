@@ -105,7 +105,7 @@ body {
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
-  color: var(--bs-body-color);
+  color: var(--darker-blue) !important;
   text-align: var(--bs-body-text-align);
   background-color: var(--bg-color);
   -webkit-text-size-adjust: 100%;
@@ -13244,6 +13244,10 @@ footer {
 
 .navbar-brand {
   width: 80% !important;
+}
+
+.dark-blue {
+  color: var(--darker-blue) !important;
 }
 
 @media only screen and (min-width: 768px) {

@@ -44,9 +44,9 @@ body {
     margin-top: 20px;
 }
 
-#landing_section {
+/* #landing_section {
     min-height: 100vh !important;
-}
+} */
 
 #select_section {
     display: flex;
@@ -242,7 +242,7 @@ td {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        min-height: 100vh;
+        /* min-height: 100vh; */
     }
 
     #landing_section h1 {

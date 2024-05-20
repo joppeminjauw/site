@@ -2,4 +2,112 @@
     --main-blue: rgba(4, 184, 245, 255);
     --bg-color: rgba(242, 252, 255, 255);
     --darker-blue: rgba(0, 66, 88, 255);
+    --main-orange: rgba(246,162,4,255);
+}
+
+#pricing_table_div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+#pricing_table_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.request_offer {
+    background-color: white;
+    border-bottom: 1.5px lightgrey solid;
+    color: var(--darker-blue);
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.pricing_table_title {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+#pricing_admin_title {
+    background-color: var(--main-blue);
+    border-radius: 20px 20px 0 0;
+}
+
+#pricing_pmo_title {
+    background-color: var(--main-orange);
+    border-radius: 20px 20px 0 0;
+}
+
+#pricing_it_title {
+    background-color: var(--darker-blue);
+    border-radius: 20px 20px 0 0;
+}
+
+#pricing_lower {
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 1.2em;
+}
+
+.pricing_table_elem {
+    width: 70%;
+    border-radius: 20px 20px 0 0;
+}
+
+.table_expand_part {
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+}
+
+.table_expand_part p {
+    padding: 20px 50px 20px 50px;
+    font-size: 1.2em;
+}
+
+@media only screen and (min-width: 768px) {
+    /* TABLET */
+
+}
+
+@media only screen and (min-width: 992px) {
+    /* SMALL SCREEN / BIG TABLET */
+
+}
+
+@media only screen and (min-width: 1200px) {
+    /* LAPTOP (MAC AIR 13") */
+
+    #pricing_table_div {
+        margin-top: 150px; 
+        width: 70%;
+    }
+
+    #pricing_table_main {
+        flex-direction: row !important;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        border-radius: 20px 20px 0 0;
+        align-items: flex-start;
+    }
+
+    .pricing_table_elem {
+        width: 33%;
+        border-radius: 20px 20px 0 0;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    /* 24" */
+}
+
+@media only screen and (min-width: 2560px) {
+    /* 27" */
+
 }
