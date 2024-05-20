@@ -1,0 +1,55 @@
+:root {
+    --main-blue: rgba(4, 184, 245, 255);
+    --bg-color: rgba(242, 252, 255, 255);
+    --darker-blue: rgba(0, 66, 88, 255);
+}
+
+#nav_logo {
+    width: 40%;
+}
+
+@media only screen and (min-width: 768px) {
+    /* TABLET */
+    #nav_logo {
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    /* SMALL SCREEN / BIG TABLET */
+
+    #mainNav {
+        border-radius: 0 0 20px 20px;
+    }
+
+    #nav_logo {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    /* LAPTOP (MAC AIR 13") */
+
+    #nav_logo {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    /* 24" */
+    #nav_logo {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    /* 24" */
+    #nav_logo {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+    /* 27" */
+
+}

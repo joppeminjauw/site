@@ -94,6 +94,27 @@
     }
 }
 
+@media only screen and (min-width: 1600px) {
+
+    .basic_page_nav h1 {
+        font-size: 3.5em;
+    }
+
+    .basic_page_nav {
+        margin-top: 200px;
+    }
+
+    .nav_hexagon {
+        background-color: rgba(218,244,253,255);
+        height: 550px;
+        width: 550px;
+        transform: rotate(10deg);
+        z-index: -9;
+        top: -9%;
+        left: -2%;
+    }
+}
+
 @media only screen and (min-width: 1700px) {
     .basic_page_nav {
         margin-top: 200px;
@@ -101,8 +122,8 @@
 
     .nav_hexagon {
         background-color: rgba(218,244,253,255);
-        height: 500px;
-        width: 500px;
+        height: 550px;
+        width: 550px;
         transform: rotate(10deg);
         z-index: -9;
         top: -9%;
@@ -113,14 +134,18 @@
 @media only screen and (min-width: 1920px) {
     /* 24" */
 
+    .basic_page_nav h1 {
+        font-size: 4em;
+    }
+
     .basic_page_nav {
         margin-top: 150px;
     }
 
     .nav_hexagon {
         background-color: rgba(218,244,253,255);
-        height: 500px;
-        width: 500px;
+        height: 600px;
+        width: 600px;
         transform: rotate(10deg);
         z-index: -9;
         top: -11%;

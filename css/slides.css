@@ -17,6 +17,10 @@
     color: white;
 }
 
+.mySlides p {
+    min-height: 300px;
+}
+
 /* Next & previous buttons */
 .prev,
 .next {
@@ -66,6 +70,21 @@
     background-color: white;
 }
 
+@media only screen and (min-width: 500px) {
+    /* TABLET */
+    .mySlides p {
+        min-height: 250px;
+    }
+    
+}
+
+@media only screen and (min-width: 700px) {
+    /* TABLET */
+    .mySlides p {
+        min-height: 200px;
+    }
+}
+
 @media only screen and (min-width: 768px) {
     /* TABLET */
 
@@ -73,7 +92,9 @@
 
 @media only screen and (min-width: 992px) {
     /* SMALL SCREEN / BIG TABLET */
-
+    .mySlides p {
+        min-height: 150px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -147,8 +168,33 @@
     }
 }
 
+@media only screen and (min-width: 1500px) {
+    /* SMALL SCREEN / BIG TABLET */
+    .mySlides p {
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    /* SMALL SCREEN / BIG TABLET */
+    .mySlides p {
+        min-height: 150px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    /* SMALL SCREEN / BIG TABLET */
+    .mySlides p {
+        min-height: 150px;
+    }
+}
+
 @media only screen and (min-width: 1920px) {
     /* 24" */
+
+    .mySlides p {
+        min-height: 300px;
+    }
 
     .slideshow-container {
         position: relative;

@@ -4,7 +4,17 @@
     --darker-blue: rgba(0, 66, 88, 255);
 }
 
+h1 {
+    font-weight: 600 !important;
+}
+
+body {
+    position: relative;
+    overflow: hidden !important;
+}
+
 #section_admin_support {
+    margin-top: 100px;
     padding-left: 24px !important;
 }
 
@@ -26,9 +36,22 @@
     display: none;
 }
 
+#hyper_flexible_div {
+    margin-bottom: 75px;
+}
+
 @media only screen and (min-width: 768px) {
     /* TABLET */
 
+    .nav_hexagon {
+        background-color: rgba(218,244,253,255);
+        height: 450px;
+        width: 450px;
+        transform: rotate(10deg);
+        z-index: -9;
+        top: -2%;
+        left: -5%;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -120,10 +143,241 @@
     #section_hyper_flexible img {
         width: 100%;
     }
+
+    /* HEXAGONS */
+
+    #admin_hexagon_white {
+        top: 13%;
+        right: -3%;
+        background-color: white;
+        width: 500px;
+        height: 500px;
+    }
+
+    #pmo_hexagon_white {
+        z-index: -9;
+        top: 28%;
+        left: -10%;
+        background-color: white;
+        width: 500px;
+        height: 500px;
+        transform: rotate(90deg);
+    }
+
+    #addition_hexagon_white {
+        z-index: -9;
+        top: 45%;
+        right: -3%;
+        background-color: white;
+        width: 500px;
+        height: 500px;
+    }
+
+    #flexible_hexagon_white {
+        z-index: -9;
+        top: 62%;
+        left: -10%;
+        background-color: white;
+        width: 500px;
+        height: 500px;
+        transform: rotate(90deg);
+    }
 }
+
+@media only screen and (min-width: 1300px) {
+
+    .nav_hexagon {
+        top: -4%;
+        left: -4%;
+    }
+
+    #admin_hexagon_white {
+        top: 12%;
+        right: -3%;
+    }
+
+    #pmo_hexagon_white {
+        top: 29%;
+        left: -10%;
+    }
+
+    #addition_hexagon_white {
+        top: 47%;
+        right: -3%;
+    }
+
+    #flexible_hexagon_white {
+        top: 64%;
+        left: -10%;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    
+    #admin_hexagon_white {
+        top: 11%;
+        right: -3%;
+        width: 600px;
+        height: 600px;
+    }
+
+    #pmo_hexagon_white {
+        top: 28%;
+        left: -10%;
+        width: 600px;
+        height: 600px;
+    }
+
+    #addition_hexagon_white {
+        top: 47%;
+        right: -3%;
+        width: 600px;
+        height: 600px;
+    }
+
+    #flexible_hexagon_white {
+        top: 65%;
+        left: -10%;
+        width: 600px;
+        height: 600px;
+    }
+
+}
+
+@media only screen and (min-width: 1500px) {
+
+    .nav_hexagon {
+        top: -4%;
+        left: -4%;
+    }
+
+    #admin_hexagon_white {
+        top: 11%;
+        right: -3%;
+    }
+
+    #pmo_hexagon_white {
+        top: 28.5%;
+        left: -10%;
+    }
+
+    #addition_hexagon_white {
+        top: 46.5%;
+        right: -3%;
+    }
+
+    #flexible_hexagon_white {
+        top: 65%;
+        left: -10%;
+    }
+
+    footer {
+        margin-top: 150px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+
+    #admin_hexagon_white {
+        top: 11%;
+        right: -3%;
+        width: 700px;
+        height: 700px;
+    }
+
+    #pmo_hexagon_white {
+        top: 28%;
+        left: -10%;
+        width: 700px;
+        height: 700px;
+    }
+
+    #addition_hexagon_white {
+        top: 46%;
+        right: -3%;
+        width: 700px;
+        height: 700px;
+    }
+
+    #flexible_hexagon_white {
+        top: 65%;
+        left: -10%;
+        width: 700px;
+        height: 700px;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+
+    .nav_hexagon {
+        height: 600px;
+        width: 600px;
+        top: -5%;
+        left: -4%;
+    }
+
+    #admin_hexagon_white {
+        top: 11%;
+        right: -3%;
+    }
+
+    #pmo_hexagon_white {
+        top: 30%;
+        left: -10%;
+    }
+
+    #addition_hexagon_white {
+        top: 48%;
+        right: -3%;
+    }
+
+    #flexible_hexagon_white {
+        top: 67%;
+        left: -10%;
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+
+    #admin_hexagon_white {
+        top: 11%;
+        right: -3%;
+        width: 800px;
+        height: 800px;
+    }
+
+    #pmo_hexagon_white {
+        top: 28%;
+        left: -10%;
+        width: 800px;
+        height: 800px;
+    }
+
+    #addition_hexagon_white {
+        top: 47%;
+        right: -3%;
+        width: 800px;
+        height: 800px;
+    }
+
+    #flexible_hexagon_white {
+        top: 67%;
+        left: -10%;
+        width: 800px;
+        height: 800px;
+    }
+}
+
 
 @media only screen and (min-width: 1920px) {
     /* 24" */
+
+    .nav_hexagon {
+        height: 600px;
+        width: 600px;
+        top: -5%;
+        left: -2%;
+    }
 
     #admin_support_div {
         width: 40% !important;
@@ -134,7 +388,7 @@
     }
 
     #admin_hexagon_white {
-        top: 33%;
+        top: 8%;
         right: -3%;
         background-color: white;
         width: 850px;
@@ -151,7 +405,7 @@
     }
 
     #pmo_hexagon_white {
-        top: 45%;
+        top: 25%;
         left: -12%;
         background-color: white;
         width: 850px;
@@ -170,7 +424,7 @@
     }
 
     #addition_hexagon_white {
-        top: 57%;
+        top: 45%;
         right: -3%;
         background-color: white;
         width: 850px;
@@ -192,7 +446,7 @@
     }
 
     #flexible_hexagon_white {
-        top: 70%;
+        top: 65%;
         left: -12%;
         background-color: white;
         width: 850px;
@@ -204,57 +458,44 @@
 @media only screen and (min-width: 2560px) {
     /* 27" */
 
-    #select_hexagon_blue {
-        top: 11%;
-        right: -20%;
-        background-color: var(--main-blue);
-        width: 2200px;
-        height: 2200px;
-        z-index: -100;
-        transform: rotate(70deg);
-    }
-
-    #select_hexagon_white {
-        top: 11%;
-        left: -10%;
-        background-color: white;
-        width: 1500px;
-        height: 1500px;
-        z-index: -99;
-        transform: rotate(2deg);
+    .nav_hexagon {
+        height: 600px;
+        width: 600px;
+        top: -3%;
+        left: -2%;
     }
 
     #admin_hexagon_white {
-        top: 31%;
+        top: 7%;
         right: -3%;
         background-color: white;
-        width: 1000px;
-        height: 1000px;
+        width: 1100px;
+        height: 1100px;
     }
 
     #pmo_hexagon_white {
-        top: 44%;
+        top: 25%;
         left: -10%;
         background-color: white;
-        width: 1000px;
-        height: 1000px;
+        width: 1100px;
+        height: 1100px;
         transform: rotate(90deg);
     }
 
     #addition_hexagon_white {
-        top: 58%;
+        top: 47%;
         right: -3%;
         background-color: white;
-        width: 1000px;
-        height: 1000px;
+        width: 1100px;
+        height: 1100px;
     }
 
     #flexible_hexagon_white {
-        top: 72%;
+        top: 68%;
         left: -10%;
         background-color: white;
-        width: 1000px;
-        height: 1000px;
+        width: 1100px;
+        height: 1100px;
         transform: rotate(90deg);
     }
 }

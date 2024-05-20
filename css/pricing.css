@@ -56,7 +56,7 @@
 }
 
 .pricing_table_elem {
-    width: 70%;
+    width: 90%;
     border-radius: 20px 20px 0 0;
 }
 
@@ -85,7 +85,7 @@
 
     #pricing_table_div {
         margin-top: 150px; 
-        width: 70%;
+        width: 90%;
     }
 
     #pricing_table_main {
@@ -100,6 +100,21 @@
     .pricing_table_elem {
         width: 33%;
         border-radius: 20px 20px 0 0;
+    }
+
+    #pricing_lower {
+        width: 100%;
+        background-color: white;
+        border-radius: 20px;
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    /* 24" */
+
+    #pricing_table_div {
+        width: 70%;
     }
 }
 
