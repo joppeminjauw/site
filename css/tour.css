@@ -40,6 +40,16 @@ body {
     margin-bottom: 75px;
 }
 
+.nav_hexagon {
+    background-color: rgba(218,244,253,255);
+    height: 400px;
+    width: 400px;
+    transform: rotate(10deg);
+    z-index: -9;
+    top: -2%;
+    left: -15%;
+}
+
 @media only screen and (min-width: 768px) {
     /* TABLET */
 
@@ -414,7 +424,7 @@ body {
     }
 
     #ideal_addition_div {
-        width: 35% !important;
+        width: 40% !important;
     }
 
     #section_ideal_addition img {

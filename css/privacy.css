@@ -3,3 +3,32 @@
     --bg-color: rgba(242, 252, 255, 255);
     --darker-blue: rgba(0, 66, 88, 255);
 }
+
+#privacy_main {
+    margin-top: 100px;
+}
+
+.privacy_item {
+    margin-bottom: 50px;
+}
+
+.privacy_item h3 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+@media only screen and (min-width: 768px) {
+    /* TABLET */
+
+    #privacy_main {
+        margin-top: 200px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    /* 24" */
+    .privacy_item p {
+        width: 80%;
+    }
+}

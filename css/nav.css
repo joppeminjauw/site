@@ -23,7 +23,16 @@
     }
 
     #nav_logo {
-        width: 100%;
+        width: 90%;
+    }
+
+    #mainNav li {
+        font-size: 0.8em;
+    }
+
+    #mainNav .btn-lwb {
+        font-size: 1em;
+        width: 130px;
     }
 }
 

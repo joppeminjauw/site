@@ -18,7 +18,7 @@
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/hexagon.css" rel="stylesheet" />
     <link href="css/basic_page.css" rel="stylesheet" />
-    <link href="css/services.css" rel="stylesheet" />
+    <link href="css/about.css" rel="stylesheet" />
     <link href="css/footer.css" rel="stylesheet" />
     <link href="css/nav.css" rel="stylesheet" />
 </head>
@@ -40,10 +40,10 @@
                     <li class="nav-item"><a class="nav-link" href="pricing.html"><strong data-i18n="nav_pricing"></strong></a></li>
                     <li class="nav-item"><a class="nav-link" href="services.html"><strong data-i18n="nav_services"></strong></a></li>
                     <li class="nav-item"><a class="nav-link" href="blog.html"><strong data-i18n="nav_blog"></strong></a></li>
-                    <li class="nav-item"><a class="nav-link" onclick="changeLanguage('nl')"
-                            href="#projects"><strong>nl</strong></a></li>
-                    <li class="nav-item"><a class="nav-link" onclick="changeLanguage('en')"
-                            href="#projects"><strong>en</strong></a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" onclick="changeLanguage('nl')"
+                                href="#projects"><strong>nl</strong></a></li>
+                        <li class="nav-item"><a class="nav-link" onclick="changeLanguage('en')"
+                                href="#projects"><strong>en</strong></a></li> -->
                     <li class="nav-item"><a class="nav-link show-s" href="#projects"><strong
                                 data-i18n="contact_me"></strong></a>
                     <li class="nav-item"><a class="nav-link btn btn-lwb show-m" href="#signup"><strong
@@ -53,15 +53,99 @@
         </div>
     </nav>
 
-    <div class="basic_page_nav pl-5 container">
-        <div class="hexagon nav_hexagon"></div>
-        <div class="basic_page_breadcrumbs"><span data-i18n="nav_home"></span> > <span data-i18n="footer_about_us" class="dark-blue"></span></div>
-        <h1 data-i18n="footer_about_us"></h1>
-    </div>
-
-    <main id="services_table_div" class="container px-4 px-lg-5 mb-5">
-
+    <main id="about_main_section" class="container  mb-5">
+        <div id="about_main_intro">
+            <div class="basic_page_nav pl-5">
+                <div class="hexagon nav_hexagon"></div>
+                <div class="basic_page_breadcrumbs"><span data-i18n="nav_home"></span> > <span data-i18n="footer_about_us" class="dark-blue"></span></div>
+                <h1 data-i18n="footer_about_us"></h1>
+            </div>
+            <div id="intro_txt">
+                <h3 data-i18n="about_intro_title"></h3>
+                <p data-i18n="about_intro_txt"></p>
+            </div>
+        </div>
+        <div id="about_main_img">
+            <img src="assets/img/about/about_main.png" alt="about us" />
+        </div>
+        <div id="about_main_usps">
+            <div class="hexagon" id="usp_hex_blue"></div>
+            <div class="usp p-2">
+                <h3>20+</h3>
+                <p data-i18n="about_usp_client"></p>
+            </div>
+            <div class="usp p-2">
+                <h3>70+</h3>
+                <p data-i18n="about_usp_amount"></p>
+            </div>
+            <div class="usp p-2">
+                <h3>500+</h3>
+                <p data-i18n="about_usp_projects"></p>
+            </div>
+            <div class="usp p-2">
+                <h3>10</h3>
+                <p data-i18n="about_usp_exp"></p>
+            </div>
+        </div>
     </main>
+
+    <section id="about_team_section" class="px-4 px-lg-5 mb-5">
+        <div class="container">
+            <div id="about_team_first">
+                <div class="about_team_img_section" id="img_1">
+                    <div class="img_title">
+                        <img src="assets/img/about/icon_1.png" alt="difference" />
+                        <h3 data-i18n="about_info_first_title"></h3>
+                    </div>
+                    <span data-i18n="about_info_first_txt_1"></span><br>
+                    <span data-i18n="about_info_first_txt_2"></span>
+                </div>
+                <div class="about_team_img_section" id="img_2">
+                    <div class="img_title">
+                        <img src="assets/img/about/icon_2.png" alt="difference" />
+                        <h3 data-i18n="about_info_second_title"></h3>
+                    </div>
+                    <span data-i18n="about_info_second_txt"></span>
+                </div>
+            </div>
+            <div id="about_team_second">
+                <h3 data-i18n="about_team_intro_title"></h3>
+                <p id="second_p" data-i18n="about_team_intro_txt"></p>
+            </div>
+            <div id="about_team_third">
+                <div class="member_card">
+                    <img src="assets/img/about/kristof.png" alt="Kristof" />
+                    <div class="member_header">
+                        <h4 data-i18n="about_kristof"></h4>
+                        <h5 data-i18n="about_kristof_title"></h5>
+                    </div>
+                    <div class="member_text">
+                        <p data-i18n="about_kristof_text"></p>
+                    </div>
+                </div>
+                <div class="member_card">
+                    <img src="assets/img/about/naresh.png" alt="Kristof" />
+                    <div class="member_header">
+                        <h4 data-i18n="about_naresh"></h4>
+                        <h5 data-i18n="about_naresh_title"></h5>
+                    </div>
+                    <div class="member_text">
+                        <p data-i18n="about_naresh_txt"></p>
+                    </div>
+                </div>
+                <div class="member_card">
+                    <img src="assets/img/about/satya.png" alt="Kristof" />
+                    <div class="member_header">
+                        <h4 data-i18n="about_satya"></h4>
+                        <h5 data-i18n="about_satya_title"></h5>
+                    </div>
+                    <div class="member_text">
+                        <p data-i18n="about_satya_txt"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer>
         <div class="footer_upper_part">

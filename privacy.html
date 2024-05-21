@@ -19,13 +19,15 @@
     <link href="css/hexagon.css" rel="stylesheet" />
     <link href="css/basic_page.css" rel="stylesheet" />
     <link href="css/privacy.css" rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
     <link href="css/nav.css" rel="stylesheet" />
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="index.html">LittleWorkerBees</a>
+            <a class="navbar-brand" href="index.html"><img id="nav_logo" src="/assets/img/LittleWorkerBees-logoHigh.png"
+                    alt="logo" /></a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -33,25 +35,61 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto text-uppercase mt-2 mb-2">
-                    <li class="nav-item"><a class="nav-link" href="tour.html"><strong data-i18n="nav_tour"></strong></a></li>
-                    <li class="nav-item"><a class="nav-link" href="pricing.html"><strong>pricing</strong></a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html"><strong>services</strong></a></li>
-                    <li class="nav-item"><a class="nav-link" href="blog.html"><strong>blog</strong></a></li>
-                    <li class="nav-item"><a class="nav-link" onclick="changeLanguage('nl')"
-                            href="#projects"><strong>nl</strong></a></li>
-                    <li class="nav-item"><a class="nav-link" onclick="changeLanguage('en')"
-                            href="#projects"><strong>en</strong></a></li>
-                    <li class="nav-item"><a class="nav-link show-s" href="#projects"><strong>Contact Me</strong></a>
+                    <li class="nav-item"><a class="nav-link" href="tour.html"><strong data-i18n="nav_tour"></strong></a>
                     </li>
-                    <li class="nav-item"><a class="nav-link btn btn-lwb show-m" href="#signup"><strong>Contact
-                                me</strong></a></li>
+                    <li class="nav-item"><a class="nav-link" href="pricing.html"><strong
+                                data-i18n="nav_pricing"></strong></a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html"><strong
+                                data-i18n="nav_services"></strong></a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html"><strong data-i18n="nav_blog"></strong></a>
+                    </li>
+                    <!-- <li class="nav-item"><a class="nav-link" onclick="changeLanguage('nl')"
+                                href="#projects"><strong>nl</strong></a></li>
+                        <li class="nav-item"><a class="nav-link" onclick="changeLanguage('en')"
+                                href="#projects"><strong>en</strong></a></li> -->
+                    <li class="nav-item"><a class="nav-link show-s" href="#projects"><strong
+                                data-i18n="contact_me"></strong></a>
+                    <li class="nav-item"><a class="nav-link btn btn-lwb show-m" href="#signup"><strong
+                                data-i18n="contact_me"></strong></a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <main id="" class="container px-4 px-lg-5">
+    <div id="pricing_nav" class="basic_page_nav container pl-5">
+        <div class="hexagon nav_hexagon"></div>
+        <div class="basic_page_breadcrumbs"><span data-i18n="nav_home"></span> <strong>> <span data-i18n="privacy_policy" class="dark-blue"></span></strong></div>
+        <h1 data-i18n="privacy_policy"></h1>
+    </div>
 
+    <main id="privacy_main" class="container px-4 px-lg-5">
+        <div class="privacy_item">
+            <h3 data-i18n="privacy_intro_title"></h3>
+            <p data-i18n="privacy_intro_txt"></p>
+        </div>
+        <div class="privacy_item">
+            <h3 data-i18n="privacy_2_title"></h3>
+            <p data-i18n="privacy_2_txt_1"></p>
+            <p data-i18n="privacy_2_txt_2"></p>
+        </div>
+        <div class="privacy_item">
+            <h3 data-i18n="privacy_3_title"></h3>
+            <p data-i18n="privacy_3_text_1"></p>
+            <p data-i18n="privacy_3_text_2"></p>
+            <p data-i18n="privacy_3_text_3"></p>
+        </div>
+        <div class="privacy_item">
+            <h3 data-i18n="privacy_4_title"></h3>
+            <p data-i18n="privacy_4_text"></p>
+        </div>
+        <div class="privacy_item">
+            <h3 data-i18n="privacy_5_title"></h3>
+            <p data-i18n="privacy_5_text"></p>
+        </div>
+        <div class="privacy_item">
+            <h3 data-i18n="privacy_6_title"></h3>
+            <p data-i18n="privacy_6_text"></p>
+        </div>
     </main>
 
     <footer>
