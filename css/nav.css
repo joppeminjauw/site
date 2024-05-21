@@ -39,21 +39,21 @@
 @media only screen and (min-width: 1200px) {
     /* LAPTOP (MAC AIR 13") */
 
-    #nav_logo {
-        width: 80%;
+    #footer_logo {
+        width: 80% !important;
     }
 }
 
 @media only screen and (min-width: 1500px) {
     /* 24" */
-    #nav_logo {
+    #footer_logo {
         width: 70%;
     }
 }
 
 @media only screen and (min-width: 1920px) {
     /* 24" */
-    #nav_logo {
+    #footer_logo {
         width: 60%;
     }
 }
