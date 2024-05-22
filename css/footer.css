@@ -113,7 +113,7 @@ footer {
     /* LAPTOP (MAC AIR 13") */
 
     #footer_logo {
-        width: 120% !important;
+        width: 80% !important;
     }
 
     .footer_upper_part {
@@ -202,7 +202,11 @@ footer {
     }
 }
 
-@media only screen and (min-width: 1500px) {}
+@media only screen and (min-width: 1500px) {
+    #footer_logo {
+        width: 70%;
+    }
+}
 
 @media only screen and (min-width: 1600px) {}
 
@@ -222,8 +226,8 @@ footer {
         position: sticky !important;
     }
 
-    #nav_logo {
-        width: 45%;
+    #footer_logo {
+        width: 60%;
     }
 
     .footer_upper_part {

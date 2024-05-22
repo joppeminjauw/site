@@ -39,21 +39,29 @@
 @media only screen and (min-width: 1200px) {
     /* LAPTOP (MAC AIR 13") */
 
-    #footer_logo {
-        width: 80% !important;
-    }
+
 }
 
-@media only screen and (min-width: 1500px) {
-    /* 24" */
-    #footer_logo {
-        width: 70%;
+@media only screen and (min-width: 1400px) {
+    /* LAPTOP (MAC AIR 13") */
+
+    #nav_logo {
+        width: 80%;
+    }
+
+    #mainNav li {
+        font-size: 1em;
+    }
+
+    #mainNav .btn-lwb {
+        font-size: 1em;
+        width: 160px;
     }
 }
 
 @media only screen and (min-width: 1920px) {
     /* 24" */
-    #footer_logo {
+    #nav_logo {
         width: 60%;
     }
 }
@@ -61,4 +69,11 @@
 @media only screen and (min-width: 2560px) {
     /* 27" */
 
+    #mainNav li {
+        font-size: 1.2em;
+    }
+
+    #nav_logo {
+        width: 50%;
+    }
 }
