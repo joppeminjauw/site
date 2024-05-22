@@ -1077,7 +1077,6 @@ td {
         width: 110%;
         display: none;
     }
-
     .select-clickable:hover {
         cursor: pointer;
     }
@@ -1117,7 +1116,7 @@ td {
     }
 
     #select_menu {
-        padding-left: 100px;
+        padding-left: 200px;
     }
 
     #customer_table {
