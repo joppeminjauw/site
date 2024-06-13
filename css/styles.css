@@ -12823,7 +12823,7 @@ body {
 
 @media (min-width: 992px) {
   .show-m {
-    display: block;
+    display: inline-block;
   }
 
   .show-s {
@@ -13156,6 +13156,14 @@ html {
 
 .dark-blue {
   color: var(--darker-blue) !important;
+}
+
+p {
+  font-weight: 400;
+}
+
+span {
+  font-weight: 400;
 }
 
 @media only screen and (min-width: 768px) {

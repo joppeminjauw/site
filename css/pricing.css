@@ -68,6 +68,11 @@
 .table_expand_part p {
     padding: 20px 50px 20px 50px;
     font-size: 1.2em;
+    margin-bottom: 0 !important;
+}
+
+.request_link {
+    text-decoration: none;
 }
 
 @media only screen and (min-width: 768px) {

@@ -225,6 +225,10 @@ td {
     transform: rotate(35deg);
 }
 
+.dropdown-icon {
+    float: right;
+}
+
 @media only screen and (min-width: 500px) {
     /* TABLET */
 
@@ -413,14 +417,14 @@ td {
     }
 
     #landing_section h1 {
-        font-size: 3em !important;
+        font-size: 3.5em !important;
         line-height: 1;
         margin-top: 100px;
         font-weight: 800 !important;
     }
 
     #landing_section p {
-        font-size: 1em;
+        font-size: 1.3em;
         margin-top: 30px;
     }
 
@@ -457,7 +461,7 @@ td {
         background-color: white;
         border-radius: 25px;
         font-size: 1.3em;
-        padding: 20px 20px 20px 40px;
+        padding: 20px 40px 20px 40px;
         width: 100%;
         color: var(--main-blue);
         z-index: 100;
@@ -1069,7 +1073,7 @@ td {
         background-color: white;
         border-radius: 25px;
         font-size: 1.5em;
-        padding: 20px 200px 20px 25px;
+        padding: 20px 50px 20px 25px;
         width: 110%;
     }
 

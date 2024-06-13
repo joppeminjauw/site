@@ -30,6 +30,7 @@ body {
 #section_ideal_addition img {
     width: 100%;
     margin-top: 50px;
+    z-index: 10;
 }
 
 #flexible_img_div {
@@ -398,7 +399,7 @@ body {
     }
 
     #admin_hexagon_white {
-        top: 8%;
+        top: 7%;
         right: -3%;
         background-color: white;
         width: 850px;
@@ -430,11 +431,11 @@ body {
     #section_ideal_addition img {
         width: 45%;
         margin-left: 150px;
-        z-index: 10;
+        z-index: 100;
     }
 
     #addition_hexagon_white {
-        top: 45%;
+        top: 49%;
         right: -3%;
         background-color: white;
         width: 850px;

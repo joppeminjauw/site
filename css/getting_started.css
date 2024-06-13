@@ -3,3 +3,116 @@
     --bg-color: rgba(242, 252, 255, 255);
     --darker-blue: rgba(0, 66, 88, 255);
 }
+
+#services_side_nav h3 {
+    font-weight: 600;
+}
+
+#started_nav {
+    display: flex;
+    flex-direction: column;
+}
+
+#started_side_nav {
+    margin-top: 150px;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.get_started_main_img {
+    margin-top: 100px;
+}
+
+.get_started_main_img img {
+    margin-top: 75px;
+    width: 100%;
+}
+
+#get_started_contact {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+#started_contact_main_div {
+    width: 100%;
+    background-color: var(--main-blue);
+    padding: 50px;
+    border-radius: 20px;
+}
+
+#started_contact_main_div p {
+    color: white;
+    font-size: 1.5em;
+}
+
+@media only screen and (min-width: 768px) {
+    /* TABLET */
+
+}
+
+@media only screen and (min-width: 992px) {
+    /* SMALL SCREEN / BIG TABLET */
+
+    #started_nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #started_side_nav {
+        margin-top: 175px;
+        width: 50%;
+        margin-left: 150px; 
+    }
+
+    #started_side_nav h3 {
+        font-size: 2.3em;
+    }
+    
+    #started_side_nav p {
+        font-size: 1.2em;
+    }
+
+    .get_started_main_img {
+        margin-top: 50px;
+    }
+
+    .get_started_main_img img {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    /* LAPTOP (MAC AIR 13") */
+
+    #started_nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #started_side_nav {
+        margin-top: 175px;
+        width: 50%;
+        margin-left: 150px; 
+    }
+
+    #started_contact_main_div p {
+        font-size: 1.7em;
+    }
+
+    #get_started_contact {
+        margin-top: 0px;
+        margin-bottom: 75px;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    /* 24" */
+
+}
+
+@media only screen and (min-width: 2560px) {
+    /* 27" */
+
+}

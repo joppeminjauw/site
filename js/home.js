@@ -2,6 +2,7 @@ var slideIndex = 1;
 
 window.addEventListener('DOMContentLoaded', async () => {
     showSlides(slideIndex);
+    dropDown('dropdown_first');
 });
 
 function plusSlides(n) {
