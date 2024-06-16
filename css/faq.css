@@ -3,3 +3,32 @@
     --bg-color: rgba(242, 252, 255, 255);
     --darker-blue: rgba(0, 66, 88, 255);
 }
+
+#main_faq {
+    margin-top: 150px;
+}
+
+.faq_title_div {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.faq_title_div h4 {
+    margin-left: 20px;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.faq_txt_block {
+    display: none;
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 1200px) {
+    /* TABLET */
+
+    .faq_title_div h4 {
+        font-size: 1.3em;
+    }
+}

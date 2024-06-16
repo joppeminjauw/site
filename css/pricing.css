@@ -113,6 +113,10 @@
         border-radius: 20px;
         font-size: 1.2em;
     }
+
+    .pricing_table_title {
+        min-height: 100px;
+    }
 }
 
 @media only screen and (min-width: 1700px) {
