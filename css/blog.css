@@ -26,7 +26,7 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.4);
-    border-radius: 30px 30px 0 0;
+    border-radius: 20px 20px 0 0;
     top: 0;
     right: 0;
     bottom: 0;
@@ -61,6 +61,32 @@
     color: var(--darker-blue);
 }
 
+#blog_pagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: white;
+}
+
+#blog_pagination a:hover, .dot:hover {
+    cursor: pointer;
+}
+
+body {
+    overflow: hidden;
+}
+
+.dot {
+    margin: 5px;
+    font-size: 0.8em !important;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.active {
+    color: white;
+}
+
 @media only screen and (min-width: 768px) {
     /* TABLET */
 
@@ -92,6 +118,16 @@
 
     .blog_article_text {
         min-height: 200px;
+    }
+
+    #blog_hexagon {
+        top: -400%;
+        left: 20%;
+        background-color: var(--main-blue);
+        width: 1200px;
+        height: 1200px;
+        z-index: -100;
+        transform: rotate(35deg);
     }
 }
 

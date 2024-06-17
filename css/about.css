@@ -103,7 +103,7 @@ body {
 }
 
 #about_team_second p {
-    text-align: right;
+    text-align: center;
 }
 
 #about_team_second h3 {
@@ -151,6 +151,15 @@ body {
     padding: 30px;
     background-color: white;
     border-radius: 0 0 20px 20px;
+}
+
+@media only screen and (min-width: 410px) {
+    .member_card img {
+        width: 40%;
+        position: absolute;
+        top: -15%;
+        left: -10%;
+    }
 }
 
 @media only screen and (min-width: 768px) {

@@ -135,11 +135,16 @@ body {
     color: white;
 }
 
+tbody td {
+    text-align: center;
+}
+
 #customer_table tbody tr {
     background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     border-radius: 0 0 10px 10px !important;
 }
 
@@ -211,12 +216,12 @@ td {
 }
 
 .author img {
-    width: 45%;
+    width: 35%;
     margin-right: 20px;
 }
 
 #testimonial_hexagon_blue {
-    top: 77%;
+    top: 78%;
     left: -50%;
     background-color: var(--main-blue);
     width: 800px;
@@ -233,7 +238,7 @@ td {
     /* TABLET */
 
     #testimonial_hexagon_blue {
-        top: 75%;
+        top: 77%;
         left: -50%;
         background-color: var(--main-blue);
         width: 1000px;
@@ -246,7 +251,7 @@ td {
 @media only screen and (min-width: 600px) {
     /* TABLET */
     #testimonial_hexagon_blue {
-        top: 75%;
+        top: 77%;
         left: -40%;
         background-color: var(--main-blue);
         width: 1000px;
@@ -259,7 +264,7 @@ td {
 @media only screen and (min-width: 700px) {
     /* TABLET */
     #testimonial_hexagon_blue {
-        top: 75%;
+        top: 77%;
         left: -30%;
         background-color: var(--main-blue);
         width: 1100px;
@@ -272,7 +277,7 @@ td {
 @media only screen and (min-width: 768px) {
     /* TABLET */
     #testimonial_hexagon_blue {
-        top: 76%;
+        top: 78%;
         left: -25%;
         background-color: var(--main-blue);
         width: 1100px;
@@ -285,7 +290,7 @@ td {
 @media only screen and (min-width: 860px) {
     /* TABLET */
     #testimonial_hexagon_blue {
-        top: 76%;
+        top: 78%;
         left: -25%;
         background-color: var(--main-blue);
         width: 1300px;
@@ -293,12 +298,16 @@ td {
         z-index: -100;
         transform: rotate(35deg);
     }
+
+    .author img {
+        width: 30%;
+    }
 }
 
 @media only screen and (min-width: 992px) {
     /* SMALL SCREEN / BIG TABLET */
     #testimonial_hexagon_blue {
-        top: 76.5%;
+        top: 80%;
         left: -25%;
         background-color: var(--main-blue);
         width: 1400px;
@@ -308,7 +317,7 @@ td {
     }
 
     .author img {
-        width: 30%;
+        width: 20%;
         margin-right: 20px;
     }
 
@@ -366,7 +375,7 @@ td {
 @media only screen and (min-width: 1100px) {
     /* TABLET */
     #testimonial_hexagon_blue {
-        top: 77.5%;
+        top: 80.5%;
         left: -25%;
         background-color: var(--main-blue);
         width: 1500px;
@@ -385,7 +394,7 @@ td {
     }
 
     .author img {
-        width: 25%;
+        width: 20%;
         margin-right: 20px;
     }
 
@@ -505,11 +514,11 @@ td {
     }
 
     #select_hexagon_white {
-        top: 11%;
-        left: -40%;
+        top: 11.5%;
+        left: -43%;
         background-color: white;
-        width: 1100px;
-        height: 1100px;
+        width: 1150px;
+        height: 1150px;
         z-index: -99;
         transform: rotate(2deg);
     }
@@ -644,7 +653,7 @@ td {
     /* HEXAGONS  */
 
     #admin_hexagon_white {
-        top: 37%;
+        top: 38%;
         right: -3%;
         background-color: white;
         width: 500px;
@@ -653,7 +662,7 @@ td {
 
     #pmo_hexagon_white {
         z-index: -9;
-        top: 46.5%;
+        top: 47.5%;
         left: -10%;
         background-color: white;
         width: 500px;
@@ -663,7 +672,7 @@ td {
 
     #addition_hexagon_white {
         z-index: -9;
-        top: 56.5%;
+        top: 57.5%;
         right: -3%;
         background-color: white;
         width: 500px;
@@ -672,7 +681,7 @@ td {
 
     #flexible_hexagon_white {
         z-index: -9;
-        top: 66%;
+        top: 67%;
         left: -10%;
         background-color: white;
         width: 500px;
@@ -684,22 +693,22 @@ td {
 @media only screen and (min-width: 1300px) {
 
     #admin_hexagon_white {
-        top: 36%;
+        top: 37%;
         right: -3%;
     }
 
     #pmo_hexagon_white {
-        top: 46.5%;
+        top: 47.5%;
         left: -10%;
     }
 
     #addition_hexagon_white {
-        top: 57%;
+        top: 58%;
         right: -3%;
     }
 
     #flexible_hexagon_white {
-        top: 67%;
+        top: 68%;
         left: -10%;
     }
 
@@ -737,35 +746,35 @@ td {
 @media only screen and (min-width: 1400px) {
     
     #admin_hexagon_white {
-        top: 35%;
+        top: 36%;
         right: -3%;
         width: 600px;
         height: 600px;
     }
 
     #pmo_hexagon_white {
-        top: 46%;
+        top: 47%;
         left: -10%;
         width: 600px;
         height: 600px;
     }
 
     #addition_hexagon_white {
-        top: 56.5%;
+        top: 57.5%;
         right: -3%;
         width: 600px;
         height: 600px;
     }
 
     #flexible_hexagon_white {
-        top: 67%;
+        top: 69%;
         left: -10%;
         width: 600px;
         height: 600px;
     }
 
     #testimonial_hexagon_blue {
-        top: 79.5%;
+        top: 81%;
         left: -25%;
         width: 2000px;
         height: 2000px;
@@ -795,27 +804,27 @@ td {
 @media only screen and (min-width: 1500px) {
 
     #admin_hexagon_white {
-        top: 34%;
+        top: 36%;
         right: -3%;
     }
 
     #pmo_hexagon_white {
-        top: 45%;
+        top: 47%;
         left: -10%;
     }
 
     #addition_hexagon_white {
-        top: 56.5%;
+        top: 58.5%;
         right: -3%;
     }
 
     #flexible_hexagon_white {
-        top: 67%;
+        top: 69%;
         left: -10%;
     }
 
     #testimonial_hexagon_blue {
-        top: 79.5%;
+        top: 81.5%;
         left: -25%;
         width: 2200px;
         height: 2200px;
@@ -853,35 +862,35 @@ td {
 @media only screen and (min-width: 1600px) {
 
     #admin_hexagon_white {
-        top: 34%;
+        top: 36%;
         right: -3%;
         width: 700px;
         height: 700px;
     }
 
     #pmo_hexagon_white {
-        top: 45%;
+        top: 47%;
         left: -10%;
         width: 700px;
         height: 700px;
     }
 
     #addition_hexagon_white {
-        top: 56.5%;
+        top: 58.5%;
         right: -3%;
         width: 700px;
         height: 700px;
     }
 
     #flexible_hexagon_white {
-        top: 68%;
+        top: 70%;
         left: -10%;
         width: 700px;
         height: 700px;
     }
 
     #testimonial_hexagon_blue {
-        top: 80.5%;
+        top: 82.5%;
         left: -25%;
         width: 2300px;
         height: 2300px;
@@ -920,27 +929,27 @@ td {
 @media only screen and (min-width: 1700px) {
 
     #admin_hexagon_white {
-        top: 33%;
+        top: 35%;
         right: -3%;
     }
 
     #pmo_hexagon_white {
-        top: 45%;
+        top: 47%;
         left: -10%;
     }
 
     #addition_hexagon_white {
-        top: 57.5%;
+        top: 59.5%;
         right: -3%;
     }
 
     #flexible_hexagon_white {
-        top: 69%;
+        top: 71%;
         left: -10%;
     }
 
     #testimonial_hexagon_blue {
-        top: 80.5%;
+        top: 82.5%;
         left: -25%;
         width: 2500px;
         height: 2500px;
@@ -970,35 +979,35 @@ td {
 @media only screen and (min-width: 1800px) {
 
     #admin_hexagon_white {
-        top: 32%;
+        top: 34%;
         right: -3%;
         width: 800px;
         height: 800px;
     }
 
     #pmo_hexagon_white {
-        top: 44%;
+        top: 46%;
         left: -10%;
         width: 800px;
         height: 800px;
     }
 
     #addition_hexagon_white {
-        top: 57%;
+        top: 59%;
         right: -3%;
         width: 800px;
         height: 800px;
     }
 
     #flexible_hexagon_white {
-        top: 69%;
+        top: 71%;
         left: -10%;
         width: 800px;
         height: 800px;
     }
 
     #testimonial_hexagon_blue {
-        top: 81%;
+        top: 83%;
         left: -25%;
         width: 2600px;
         height: 2600px;
@@ -1236,7 +1245,7 @@ td {
     }
 
     #testimonial_hexagon_blue {
-        top: 81%;
+        top: 82%;
         left: 17%;
         background-color: var(--main-blue);
         width: 1900px;

@@ -23,6 +23,15 @@
 .faq_txt_block {
     display: none;
     margin-top: 20px;
+    margin-left: 50px;
+}
+
+.faq_title_div:hover {
+    cursor: pointer;
+}
+
+.faq_txt_block {
+    display: none;
 }
 
 @media only screen and (min-width: 1200px) {

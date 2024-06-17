@@ -23,7 +23,7 @@
     }
 
     #nav_logo {
-        width: 90%;
+        width: 80%;
     }
 
     #mainNav li {
@@ -39,14 +39,16 @@
 @media only screen and (min-width: 1200px) {
     /* LAPTOP (MAC AIR 13") */
 
-
+    #nav_logo {
+        width: 70%;
+    }
 }
 
 @media only screen and (min-width: 1400px) {
     /* LAPTOP (MAC AIR 13") */
 
     #nav_logo {
-        width: 80%;
+        width: 70%;
     }
 
     #mainNav li {
