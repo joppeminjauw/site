@@ -32,6 +32,10 @@ body {
     z-index: 10;
 }
 
+#section_ideal_addition {
+    margin-top: 150px;
+}
+
 #flexible_img_div {
     display: none;
 }
@@ -113,7 +117,10 @@ body {
     #providing_img_div {
         width: 45%;
         margin-right: 150px;
-        display: block;
+        display: flex;
+        vertical-align: middle;
+        justify-content: center;
+        align-items: center;
     }
 
     #section_providing_pmo img {
@@ -125,6 +132,7 @@ body {
         flex-direction: row;
         justify-content: center;
         margin-top: 130px;
+        margin-top: none;
     }
 
     #ideal_addition_div {
@@ -154,17 +162,21 @@ body {
     #flexible_img_div {
         width: 40%;
         margin-right: 150px;
-        display: block;
+        display: flex;
+        vertical-align: middle;
+        justify-content: center;
+        align-items: center;
     }
 
     #section_hyper_flexible img {
         width: 100%;
+        z-index: 5;
     }
 
     /* HEXAGONS */
 
     #admin_hexagon_white {
-        top: 12%;
+        top: 11%;
         right: -3%;
         background-color: white;
         width: 500px;
@@ -172,8 +184,8 @@ body {
     }
 
     #pmo_hexagon_white {
-        z-index: -9;
-        top: 28%;
+        z-index: 1;
+        top: 29%;
         left: -10%;
         background-color: white;
         width: 500px;
@@ -183,7 +195,7 @@ body {
 
     #addition_hexagon_white {
         z-index: -9;
-        top: 50%;
+        top: 51%;
         right: -3%;
         background-color: white;
         width: 500px;
@@ -192,7 +204,7 @@ body {
 
     #flexible_hexagon_white {
         z-index: -9;
-        top: 67%;
+        top: 70%;
         left: -10%;
         background-color: white;
         width: 500px;
@@ -209,27 +221,31 @@ body {
     }
 
     #admin_hexagon_white {
-        top: 13%;
+        top: 12%;
         right: -3%;
     }
 
     #pmo_hexagon_white {
-        top: 29%;
+        top: 31%;
         left: -10%;
     }
 
     #addition_hexagon_white {
-        top: 49%;
+        top: 51%;
         right: -3%;
     }
 
     #flexible_hexagon_white {
-        top: 67%;
+        top: 69%;
         left: -10%;
     }
 }
 
 @media only screen and (min-width: 1400px) {
+
+    #section_ideal_addition {
+        margin-top: 50px;
+    }
     
     #admin_hexagon_white {
         top: 11%;
@@ -274,17 +290,17 @@ body {
     }
 
     #pmo_hexagon_white {
-        top: 28.5%;
+        top: 31%;
         left: -10%;
     }
 
     #addition_hexagon_white {
-        top: 46.5%;
+        top: 49%;
         right: -3%;
     }
 
     #flexible_hexagon_white {
-        top: 65%;
+        top: 69%;
         left: -10%;
     }
 
@@ -296,28 +312,28 @@ body {
 @media only screen and (min-width: 1600px) {
 
     #admin_hexagon_white {
-        top: 11%;
+        top: 12%;
         right: -3%;
         width: 700px;
         height: 700px;
     }
 
     #pmo_hexagon_white {
-        top: 30%;
+        top: 32%;
         left: -10%;
         width: 700px;
         height: 700px;
     }
 
     #addition_hexagon_white {
-        top: 46%;
+        top: 49%;
         right: -3%;
         width: 700px;
         height: 700px;
     }
 
     #flexible_hexagon_white {
-        top: 67%;
+        top: 69%;
         left: -10%;
         width: 700px;
         height: 700px;
@@ -334,22 +350,22 @@ body {
     }
 
     #admin_hexagon_white {
-        top: 11%;
+        top: 12%;
         right: -3%;
     }
 
     #pmo_hexagon_white {
-        top: 35%;
+        top: 37%;
         left: -10%;
     }
 
     #addition_hexagon_white {
-        top: 48%;
+        top: 50%;
         right: -3%;
     }
 
     #flexible_hexagon_white {
-        top: 67%;
+        top: 69%;
         left: -10%;
     }
 }
@@ -405,11 +421,11 @@ body {
     }
 
     #admin_hexagon_white {
-        top: 7%;
+        top: 9%;
         right: -3%;
         background-color: white;
-        width: 850px;
-        height: 850px;
+        width: 800px;
+        height: 800px;
     }
 
     #providing_support_div {
@@ -422,11 +438,11 @@ body {
     }
 
     #pmo_hexagon_white {
-        top: 27%;
+        top: 29%;
         left: -12%;
         background-color: white;
-        width: 850px;
-        height: 850px;
+        width: 800px;
+        height: 800px;
         transform: rotate(90deg);
     }
 
@@ -441,11 +457,11 @@ body {
     }
 
     #addition_hexagon_white {
-        top: 49%;
+        top: 50%;
         right: -3%;
         background-color: white;
-        width: 850px;
-        height: 850px;
+        width: 800px;
+        height: 800px;
     }
 
     #section_hyper_flexible {
@@ -463,11 +479,11 @@ body {
     }
 
     #flexible_hexagon_white {
-        top: 67%;
+        top: 68%;
         left: -12%;
         background-color: white;
-        width: 850px;
-        height: 850px;
+        width: 800px;
+        height: 800px;
         transform: rotate(90deg);
     }
 }
@@ -483,36 +499,36 @@ body {
     }
 
     #admin_hexagon_white {
-        top: 7%;
+        top: 9%;
         right: -3%;
         background-color: white;
-        width: 1100px;
-        height: 1100px;
+        width: 900px;
+        height: 900px;
     }
 
     #pmo_hexagon_white {
-        top: 27%;
+        top: 29%;
         left: -10%;
         background-color: white;
-        width: 1100px;
-        height: 1100px;
+        width: 900px;
+        height: 900px;
         transform: rotate(90deg);
     }
 
     #addition_hexagon_white {
-        top: 49%;
+        top: 51%;
         right: -3%;
         background-color: white;
-        width: 1100px;
-        height: 1100px;
+        width: 900px;
+        height: 900px;
     }
 
     #flexible_hexagon_white {
-        top: 70%;
+        top: 69;
         left: -10%;
         background-color: white;
-        width: 1100px;
-        height: 1100px;
+        width: 900px;
+        height: 900px;
         transform: rotate(90deg);
     }
 }

@@ -2243,6 +2243,18 @@ progress {
   -webkit-overflow-scrolling: touch;
 }
 
+p {
+  font-size: 1.1em !important;
+  font-weight: 400 !important;
+}
+
+@media (min-width: 1200px) {
+  p {
+    font-size: 1.3em !important;
+    font-weight: 400 !important;
+  }
+}
+
 @media (max-width: 575.98px) {
   .table-responsive-sm {
     overflow-x: auto;

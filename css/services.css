@@ -47,7 +47,8 @@
 
 .expand_part_title {
     color: var(--darker-blue) !important;
-    font-weight: bold;    
+    font-weight: 600 !important;
+    font-size: 1.2em;    
     padding-top: 20px;
 }
 

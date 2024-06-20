@@ -175,17 +175,17 @@
     }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1200px) {
     /* SMALL SCREEN / BIG TABLET */
     .mySlides p {
-        min-height: 150px;
+        min-height: 200px !important;
     }
 }
 
 @media only screen and (min-width: 992px) {
     /* SMALL SCREEN / BIG TABLET */
     .mySlides p {
-        min-height: 150px;
+        min-height: 180px;
     }
 }
 
@@ -193,7 +193,7 @@
     /* 24" */
 
     .mySlides p {
-        min-height: 300px;
+        min-height: 250px !important;
     }
 
     .slideshow-container {

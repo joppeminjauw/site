@@ -39,6 +39,7 @@
     background-color: var(--main-blue);
     padding: 50px;
     border-radius: 20px;
+    position: relative;
 }
 
 #started_contact_main_div p {
@@ -46,9 +47,31 @@
     font-size: 1.5em;
 }
 
-@media only screen and (min-width: 768px) {
+#started_contact_main_div img {
+    position: absolute;
+    width: 30%;
+    right: -5%;
+    top: -25%;
+}
+
+@media only screen and (min-width: 600px) {
+    /* TABLET */
+    #started_contact_main_div img {
+        width: 25%;
+        right: -8%;
+        top: -25%;
+    }
+    
+}
+
+@media only screen and (min-width: 800px) {
     /* TABLET */
 
+    #started_contact_main_div img {
+        width: 20%;
+        right: -8%;
+        top: -25%;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -104,6 +127,22 @@
     #get_started_contact {
         margin-top: 0px;
         margin-bottom: 75px;
+    }
+
+    #started_contact_main_div img {
+        width: 15%;
+        right: -8%;
+        top: -30%;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    /* LAPTOP (MAC AIR 13") */
+
+    #started_contact_main_div img {
+        width: 12%;
+        right: -5%;
+        top: -30%;
     }
 }
 
