@@ -1331,41 +1331,41 @@ td {
     }
 
     #admin_hexagon_white {
-        top: 31%;
+        top: 37%;
         right: -3%;
         background-color: white;
-        width: 1000px;
-        height: 1000px;
+        width: 900px;
+        height: 900px;
     }
 
     #pmo_hexagon_white {
-        top: 44%;
+        top: 49%;
         left: -10%;
         background-color: white;
-        width: 1000px;
-        height: 1000px;
+        width: 900px;
+        height: 900px;
         transform: rotate(90deg);
     }
 
     #addition_hexagon_white {
-        top: 58%;
+        top: 60%;
         right: -3%;
         background-color: white;
-        width: 1000px;
-        height: 1000px;
+        width: 900px;
+        height: 900px;
     }
 
     #flexible_hexagon_white {
         top: 72%;
         left: -10%;
         background-color: white;
-        width: 1000px;
-        height: 1000px;
+        width: 900px;
+        height: 900px;
         transform: rotate(90deg);
     }
 
     #testimonial_hexagon_blue {
-        top: 85%;
+        top: 83%;
         left: 25%;
         background-color: var(--main-blue);
         width: 1900px;

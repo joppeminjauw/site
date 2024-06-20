@@ -20,6 +20,11 @@
     padding-right: 50px;
 }
 
+#started_side_nav span {
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
 .get_started_main_img {
     margin-top: 100px;
 }
@@ -133,6 +138,10 @@
         width: 15%;
         right: -8%;
         top: -30%;
+    }
+
+    #started_side_nav span {
+        font-size: 1.3em;
     }
 }
 
