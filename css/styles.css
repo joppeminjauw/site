@@ -13085,6 +13085,11 @@ body {
 
 .btn {
   text-transform: none !important;
+  font-family: "proxima-nova", sans-serif !important;
+}
+
+.btn-lwb {
+  font-family: "proxima-nova", sans-serif !important;
 }
 
 ::-webkit-scrollbar {

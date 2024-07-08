@@ -367,6 +367,10 @@ body {
         min-height: 300px;
     }
 
+    .member_text p {
+        font-size: 1em !important;
+    }
+
     #usp_hex_blue {
         background-color: var(--main-blue);
         height: 1500px;
@@ -540,6 +544,10 @@ body {
     #about_main_img {
         margin-top: 150px;
         margin-right: 250px;
+    }
+
+    .member_text p {
+        font-size: 1.3em !important;
     }
 }
 

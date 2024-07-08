@@ -24,6 +24,7 @@
     border-bottom: 1.5px lightgrey solid;
     color: var(--darker-blue);
     font-weight: bolder;
+    font-size: 1.4em !important;
 }
 
 .pricing_table_title {
@@ -60,6 +61,7 @@
 .pricing_table_elem {
     width: 90%;
     border-radius: 20px 20px 0 0;
+    margin-bottom: 50px;
 }
 
 .table_expand_part {
@@ -117,7 +119,19 @@
     }
 
     .pricing_table_title {
-        min-height: 100px;
+        min-height: 120px;
+    }
+
+    .table_expand_part {
+        min-height: 500px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    /* 24" */
+
+    .table_expand_part {
+        min-height: 400px;
     }
 }
 
@@ -125,7 +139,7 @@
     /* 24" */
 
     #pricing_table_div {
-        width: 70%;
+        width: 80%;
     }
 }
 
