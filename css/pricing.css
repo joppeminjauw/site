@@ -23,7 +23,6 @@
     background-color: white;
     border-bottom: 1.5px lightgrey solid;
     color: var(--darker-blue);
-    font-size: 1.5em;
     font-weight: bolder;
 }
 
@@ -36,16 +35,19 @@
 #pricing_admin_title {
     background-color: var(--main-blue);
     border-radius: 20px 20px 0 0;
+    font-size: 1.5em !important;
 }
 
 #pricing_pmo_title {
     background-color: var(--main-orange);
     border-radius: 20px 20px 0 0;
+    font-size: 1.5em !important;
 }
 
 #pricing_it_title {
     background-color: var(--darker-blue);
     border-radius: 20px 20px 0 0;
+    font-size: 1.5em !important;
 }
 
 #pricing_lower {
