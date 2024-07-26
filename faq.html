@@ -28,6 +28,10 @@
         <div class="container px-4 px-lg-5">
             <a class="navbar-brand" href="index.html"><img id="nav_logo" src="/assets/img/LittleWorkerBees-logoHigh.png"
                     alt="logo" /></a>
+                    <select class="language-select navbar-toggler" id="languageSelectSmall" aria-label="Select Language">
+                        <option value="en" selected>EN</option>
+                        <option value="nl">NL</option>
+                    </select>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -39,7 +43,7 @@
                                 data-i18n="footer_about_us"></strong></a>
                     </li>
                     <li class="nav-item show-s"><a class="nav-link" href="get_started.html"><strong
-                                data-i18n="get_started"></strong></a></li>
+                        data-i18n="get_started"></strong></a></li>
                     <li class="nav-item"><a class="nav-link" href="tour.html"><strong data-i18n="nav_tour"></strong></a>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="pricing.html"><strong
@@ -48,11 +52,19 @@
                                 data-i18n="nav_services"></strong></a></li>
                     <li class="nav-item"><a class="nav-link" href="blog.html"><strong data-i18n="nav_blog"></strong></a>
                     </li>
+                    <!-- <li class="nav-item"><a class="nav-link" onclick="changeLanguage('nl')"
+                                href="#projects"><strong>nl</strong></a></li>
+                        <li class="nav-item"><a class="nav-link" onclick="changeLanguage('en')"
+                                href="#projects"><strong>en</strong></a></li> -->
                     <li class="nav-item"><a class="nav-link show-s" href="mailto:info@littleworkerbees.com?subject=Contact via site"><strong
                                 data-i18n="contact_me"></strong></a>
                     <li class="nav-item"><a class="nav-link btn btn-lwb show-m"
                             href="mailto:info@littleworkerbees.com?subject=Contact via site"><strong data-i18n="contact_me"></strong></a></li>
                 </ul>
+                <select class="language-select" id="languageSelect" aria-label="Select Language">
+                    <option value="en" selected>EN</option>
+                    <option value="nl">NL</option>
+                </select>
             </div>
         </div>
     </nav>
