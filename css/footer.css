@@ -32,6 +32,7 @@ footer {
     width: 100%;
     border-radius: 20px 20px 0 0;
     padding: 75px 75px;
+    font-size: 0.9em !important;
 }
 
 .footer_get_started h3 {
@@ -46,6 +47,7 @@ footer {
 
 .footer_upper_first p {
     margin-left: 20px;
+    font-size: 0.9em !important;
 }
 
 .footer_upper_second {
