@@ -5,7 +5,11 @@
 }
 
 #nav_logo {
-    width: 60%;
+    width: 70%;
+}
+
+.navbar-brand {
+    width: 60% !important;
 }
 
 @media only screen and (min-width: 768px) {
@@ -23,7 +27,7 @@
     }
 
     #nav_logo {
-        width: 80%;
+        width: 60%;
     }
 
     #mainNav li {
@@ -33,6 +37,39 @@
     #mainNav .btn-lwb {
         font-size: 1em;
         width: 130px;
+    }
+
+    #languageSelect {
+        font-size: 1em;
+        border: none;
+        margin-left: 20px;
+    }
+
+    #languageSelect:hover {
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    #languageSelect:focus {
+        text-decoration: none;
+        outline: none;
+    }
+
+    #languageSelect option {
+        border: none;
+    }
+
+    .navbar-brand {
+        width: 30% !important;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    /* LAPTOP (MAC AIR 13") */
+
+    #mainNav .btn-lwb {
+        font-size: 1em;
+        width: 160px;
     }
 }
 
@@ -57,7 +94,7 @@
 
     #mainNav .btn-lwb {
         font-size: 1em;
-        width: 160px;
+        width: 170px;
     }
 }
 
@@ -76,6 +113,18 @@
     }
 
     #nav_logo {
-        width: 50%;
+        width: 30%;
+    }
+
+    #mainNav .btn-lwb {
+        width: 190px;
+    }
+
+    #languageSelect {
+        font-size: 1.3em;
+    }
+
+    .navbar-brand {
+        width: 40% !important;
     }
 }

@@ -2,9 +2,15 @@ var slideIndex = 1;
 
 window.addEventListener('DOMContentLoaded', async () => {
 
-    // TODO:
-    // - set value of lang-select-menu to userPreferredLanguage
-    // - fetch langData and updateContent in onChange listener of lang-select-menu
+    document.getElementById('languageSelect').addEventListener('change', function () {
+        var selectedLanguage = this.value;
+        changeLanguage(selectedLanguage);
+    });
+
+    document.getElementById('languageSelectSmall').addEventListener('change', function () {
+        var selectedLanguage = this.value;
+        changeLanguage(selectedLanguage);
+    });
 
     const userPreferredLanguage = localStorage.getItem('language') || 'en';
     changeLanguage(userPreferredLanguage);
@@ -63,6 +69,18 @@ async function changeLanguage(elem) {
     var lang = elem;
     await setLanguagePreference(lang);
 
+    document.getElementById('languageSelect').value = lang;
+
     const langData = await fetchLanguageData(lang);
     updateContent(langData);
+    changeLangImages(lang);
+}
+
+async function changeLangImages(lang) {
+    var prefix = lang.toUpperCase();
+    $("get_started_1").attr("src", `${prefix}_1.png`);
+    $("get_started_2").attr("src", `${prefix}_2.png`);
+    $("get_started_3").attr("src", `${prefix}_3.png`);
+    $("get_started_4").attr("src", `${prefix}_4.png`);
+    $("get_started_main_full").attr("src", `${prefix}_volledig schema.png`);
 }
