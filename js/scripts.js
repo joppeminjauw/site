@@ -57,7 +57,6 @@ function updateContent(langData) {
 
 function setLanguagePreference(lang) {
     localStorage.setItem('language', lang);
-    // location.reload();
 }
 
 async function fetchLanguageData(lang) {
@@ -77,10 +76,11 @@ async function changeLanguage(elem) {
 }
 
 async function changeLangImages(lang) {
-    var prefix = lang.toUpperCase();
-    $("get_started_1").attr("src", `${prefix}_1.png`);
-    $("get_started_2").attr("src", `${prefix}_2.png`);
-    $("get_started_3").attr("src", `${prefix}_3.png`);
-    $("get_started_4").attr("src", `${prefix}_4.png`);
-    $("get_started_main_full").attr("src", `${prefix}_volledig schema.png`);
+    var prefix = `assets/img/get_started/${lang.toUpperCase()}`;
+    console.log(prefix);
+    document.getElementById("get_started_1").src = `${prefix}_1.png`;
+    document.getElementById("get_started_2").src = `${prefix}_2.png`;
+    document.getElementById("get_started_3").src = `${prefix}_3.png`;
+    document.getElementById("get_started_4").src = `${prefix}_4.png`;
+    document.getElementById("get_started_main_full").src = `${prefix}_volledig schema.png`;
 }
