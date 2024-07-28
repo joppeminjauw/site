@@ -77,7 +77,6 @@ async function changeLanguage(elem) {
 
 async function changeLangImages(lang) {
     var prefix = `assets/img/get_started/${lang.toUpperCase()}`;
-    console.log(prefix);
     document.getElementById("get_started_1").src = `${prefix}_1.png`;
     document.getElementById("get_started_2").src = `${prefix}_2.png`;
     document.getElementById("get_started_3").src = `${prefix}_3.png`;
