@@ -69,6 +69,7 @@ async function changeLanguage(elem) {
     await setLanguagePreference(lang);
 
     document.getElementById('languageSelect').value = lang;
+    document.getElementById('languageSelectSmall').value = lang;
 
     const langData = await fetchLanguageData(lang);
     updateContent(langData);
