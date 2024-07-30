@@ -123,7 +123,7 @@
     }
 
     .table_expand_part {
-        min-height: 500px;
+        min-height: 350px;
     }
 }
 
@@ -131,7 +131,7 @@
     /* 24" */
 
     .table_expand_part {
-        min-height: 400px;
+        min-height: 300px;
     }
 }
 
