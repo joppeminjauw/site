@@ -139,7 +139,11 @@
     }
 
     .services_table_expand_part {
-        min-height: 900px;
+        min-height: 950px;
+    }
+
+    .services_table_title {
+        min-height: 175px;
     }
 }
 
