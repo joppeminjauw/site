@@ -77,10 +77,26 @@ async function changeLanguage(elem) {
 }
 
 async function changeLangImages(lang) {
-    var prefix = `assets/img/get_started/${lang.toUpperCase()}`;
-    document.getElementById("get_started_1").src = `${prefix}_1.png`;
-    document.getElementById("get_started_2").src = `${prefix}_2.png`;
-    document.getElementById("get_started_3").src = `${prefix}_3.png`;
-    document.getElementById("get_started_4").src = `${prefix}_4.png`;
-    document.getElementById("get_started_main_full").src = `${prefix}_volledig schema.png`;
+    // get started page images
+    try {
+        var prefix = `assets/img/get_started/${lang.toUpperCase()}`;
+        document.getElementById("get_started_1").src = `${prefix}_1.png`;
+        document.getElementById("get_started_2").src = `${prefix}_2.png`;
+        document.getElementById("get_started_3").src = `${prefix}_3.png`;
+        document.getElementById("get_started_4").src = `${prefix}_4.png`;
+        document.getElementById("get_started_main_full").src = `${prefix}_volledig schema.png`;
+    } catch (e) {
+        console.log("Not on get started page, no images set");
+    }
+
+    // index - tour page images
+    try {
+        var prefix = `assets/img/homepage/${lang.toUpperCase()}`;
+        document.getElementById("team_img").src = `${prefix}_team.png`;
+        // document.getElementById("addition_img").src = `${prefix}_addition.png`; --> no NL-image yet
+        // header last so it doesn't fail in tour-page
+        document.getElementById("header_img").src = `${prefix}_header.png`;
+    } catch (e) {
+        console.log("Not on home - or tour page, no images set");
+    }
 }
