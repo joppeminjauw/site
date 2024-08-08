@@ -68,7 +68,6 @@ async function changeLanguage(lang) {
     const langData = await fetchLanguageData(lang);
     updateContent(langData);
     changeLangImages(lang);
-    updateLinks(lang)
 }
 
 function updateContent(langData) {
@@ -111,13 +110,4 @@ async function changeLangImages(lang) {
     } catch (e) {
         // do nothing
     }
-}
-
-function updateLinks(lang) {
-    document.querySelectorAll('a[href]').forEach(link => {
-        const href = link.getAttribute('href');
-        if (href.startsWith('/')) {
-            link.setAttribute('href', `/${lang}${href}`);
-        }
-    });
 }
