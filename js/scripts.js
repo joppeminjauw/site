@@ -19,7 +19,6 @@ window.addEventListener('DOMContentLoaded', async () => {
         const newUrl = `/${selectedLanguage}${window.location.pathname.substring(3)}`;
         window.history.pushState({}, '', newUrl);
         location.reload();
-        // changeLanguage(selectedLanguage);
     });
 
     document.getElementById('languageSelectSmall').addEventListener('change', function () {
