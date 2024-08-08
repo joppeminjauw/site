@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="Optimize the performance of your workforce" />
     <meta name="author" content="LittleWorkerBees" />
-    <title>LittleWorkerBees -  About us</title>
+    <title>LittleWorkerBees - Pricing</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
@@ -15,12 +15,12 @@
         rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="css/styles.css" rel="stylesheet" />
-    <link href="css/hexagon.css" rel="stylesheet" />
-    <link href="css/basic_page.css" rel="stylesheet" />
-    <link href="css/about.css" rel="stylesheet" />
-    <link href="css/footer.css" rel="stylesheet" />
-    <link href="css/nav.css" rel="stylesheet" />
+    <link href="/css/styles.css" rel="stylesheet" />
+    <link href="/css/hexagon.css" rel="stylesheet" />
+    <link href="/css/basic_page.css" rel="stylesheet" />
+    <link href="/css/pricing.css" rel="stylesheet" />
+    <link href="/css/footer.css" rel="stylesheet" />
+    <link href="/css/nav.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -69,100 +69,47 @@
         </div>
     </nav>
 
-    <main id="about_main_section" class="container  mb-5">
-        <div id="about_main_intro">
-            <div class="basic_page_nav pl-5">
-                <div class="hexagon nav_hexagon"></div>
-                <div class="basic_page_breadcrumbs"><span data-i18n="nav_home"></span> > <span data-i18n="footer_about_us" class="dark-blue"></span></div>
-                <h1 data-i18n="footer_about_us"></h1>
+    <div id="pricing_nav" class="basic_page_nav container pl-5">
+        <div class="hexagon nav_hexagon"></div>
+        <div class="basic_page_breadcrumbs"><span data-i18n="nav_home"></span> <strong>> <span data-i18n="nav_pricing" class="dark-blue"></span></strong></div>
+        <h1 data-i18n="nav_pricing"></h1>
+    </div>
+
+    <main id="pricing_table_div" class="container px-4 px-lg-5">
+        <div id="pricing_table_main">
+            <div class="pricing_table_elem mr-4" id="pricing_admin">
+                <div id="pricing_admin_title" class="pricing_table_title p-4" data-i18n="pricing_admin_title"></div>
+                <a class="request_link" href="subject=Request Offer - LittleWorkerBees Aministrative and Process Support"><div class="request_offer p-4" data-i18n="pricing_request_offer"></div></a>
+                <div class="table_expand_part">
+                    <p data-i18n="pricing_admin_1"></p>
+                    <p data-i18n="pricing_admin_2"></p>
+                </div>
             </div>
-            <div id="intro_txt">
-                <h3 data-i18n="about_intro_title"></h3>
-                <p data-i18n="about_intro_txt"></p>
-                <a href="blog.html" class="btn btn-lwb" data-i18n="about_read_blog"></a>
+            <div class="pricing_table_elem mr-4" id="pricing_pmo">
+                <div id="pricing_pmo_title" class="pricing_table_title p-4" data-i18n="pricing_pmo_title"></div>
+                <a class="request_link" href="mailto:info@littleworkerbees.com?subject=Request Offer - LittleWorkerBees Project Management Support"><div class="request_offer p-4" data-i18n="pricing_request_offer"></div></a>
+                <div class="table_expand_part">
+                    <p data-i18n="pricing_pmo_1"></p>
+                    <p data-i18n="pricing_pmo_3"></p>
+                </div>
+            </div>
+            <div class="pricing_table_elem mr-4" id="pricing_it">
+                <div id="pricing_it_title" class="pricing_table_title p-4" data-i18n="pricing_it_title"></div>
+                <a class="request_link" href="mailto:info@littleworkerbees.com?subject=Request Offer - LittleWorkerBees IT Support"><div class="request_offer p-4" data-i18n="pricing_request_offer"></div></a>
+                <div class="table_expand_part">
+                    <p data-i18n="pricing_it_1"></p>
+                    <p data-i18n="pricing_it_2"></p>
+                    <p data-i18n="pricing_it_3"></p>
+                </div>
             </div>
         </div>
-        <div id="about_main_img">
-            <img src="assets/img/about/about_main.png" alt="about us" />
-        </div>
-        <div id="about_main_usps">
-            <div class="hexagon" id="usp_hex_blue"></div>
-            <div class="usp p-2">
-                <h3>20+</h3>
-                <p data-i18n="about_usp_client"></p>
-            </div>
-            <div class="usp p-2">
-                <h3>70+</h3>
-                <p data-i18n="about_usp_amount"></p>
-            </div>
-            <div class="usp p-2">
-                <h3>500+</h3>
-                <p data-i18n="about_usp_projects"></p>
-            </div>
-            <div class="usp p-2">
-                <h3>10</h3>
-                <p data-i18n="about_usp_exp"></p>
-            </div>
+        <div id="pricing_lower" class="text-center p-4 mt-4 mb-5 mr-4">
+            <div data-i18n="pricing_lower"></div>
+            <div data-i18n="pricing_admin_3"></div>
+            <div data-i18n="pricing_lower_2"></div>
+            <div data-i18n="pricing_admin_4"></div>
         </div>
     </main>
-
-    <section id="about_team_section" class="px-4 px-lg-5 mb-5">
-        <div class="container">
-            <div id="about_team_second">
-                <h3 data-i18n="about_team_intro_title"></h3>
-                <p id="second_p" data-i18n="about_team_intro_txt"></p>
-            </div>
-            <div id="about_team_third">
-                <div class="member_card">
-                    <img src="assets/img/about/kristof.png" alt="Kristof" />
-                    <div class="member_header">
-                        <h4 data-i18n="about_kristof"></h4>
-                        <h5 data-i18n="about_kristof_title"></h5>
-                    </div>
-                    <div class="member_text">
-                        <p class="member_test" data-i18n="about_kristof_text"></p>
-                    </div>
-                </div>
-                <div class="member_card">
-                    <img src="assets/img/about/naresh.png" alt="Kristof" />
-                    <div class="member_header">
-                        <h4 data-i18n="about_naresh"></h4>
-                        <h5 data-i18n="about_naresh_title"></h5>
-                    </div>
-                    <div class="member_text">
-                        <p data-i18n="about_naresh_txt"></p>
-                    </div>
-                </div>
-                <div class="member_card">
-                    <img src="assets/img/about/satya.png" alt="Kristof" />
-                    <div class="member_header">
-                        <h4 data-i18n="about_satya"></h4>
-                        <h5 data-i18n="about_satya_title"></h5>
-                    </div>
-                    <div class="member_text">
-                        <p data-i18n="about_satya_txt"></p>
-                    </div>
-                </div>
-            </div>
-            <div id="about_team_first">
-                <div class="about_team_img_section" id="img_1">
-                    <div class="img_title">
-                        <img src="assets/img/about/icon_1.png" alt="difference" />
-                        <h3 data-i18n="about_info_first_title"></h3>
-                    </div>
-                    <span data-i18n="about_info_first_txt_1"></span><br>
-                    <span data-i18n="about_info_first_txt_2"></span>
-                </div>
-                <div class="about_team_img_section" id="img_2">
-                    <div class="img_title">
-                        <img src="assets/img/about/icon_2.png" alt="difference" />
-                        <h3 data-i18n="about_info_second_title"></h3>
-                    </div>
-                    <span data-i18n="about_info_second_txt"></span>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <footer>
         <div class="footer_upper_part">
@@ -204,13 +151,13 @@
                 <a href="https://www.instagram.com/littleworkerbees/" target="_blank"><i class="fa-brands fa-square-instagram fa-lg" target="_blank"></i></a>
             </div>
             <div>
-                Designed by Lulu Linn
+                Designed by <a id="designer_link" href="https://www.instagram.com/_lululinn/" target="_blank">Lulu Linn</a>
             </div>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="/js/scripts.js"></script>
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
 

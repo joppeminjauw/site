@@ -15,12 +15,12 @@
         rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="css/styles.css" rel="stylesheet" />
-    <link href="css/hexagon.css" rel="stylesheet" />
-    <link href="css/basic_page.css" rel="stylesheet" />
-    <link href="css/faq.css" rel="stylesheet" />
-    <link href="css/footer.css" rel="stylesheet" />
-    <link href="css/nav.css" rel="stylesheet" />
+    <link href="/css/styles.css" rel="stylesheet" />
+    <link href="/css/hexagon.css" rel="stylesheet" />
+    <link href="/css/basic_page.css" rel="stylesheet" />
+    <link href="/css/privacy.css" rel="stylesheet" />
+    <link href="/css/footer.css" rel="stylesheet" />
+    <link href="/css/nav.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -69,97 +69,39 @@
         </div>
     </nav>
 
-    <div id="faq_nav" class="basic_page_nav container pl-5">
+    <div id="pricing_nav" class="basic_page_nav container pl-5">
         <div class="hexagon nav_hexagon"></div>
-        <div class="basic_page_breadcrumbs"><span data-i18n="nav_home"></span> <strong>> <span data-i18n="footer_faq"
-                    class="dark-blue"></span></strong></div>
-        <h1 data-i18n="footer_faq"></h1>
+        <div class="basic_page_breadcrumbs"><span data-i18n="nav_home"></span> <strong>> <span data-i18n="privacy_policy" class="dark-blue"></span></strong></div>
+        <h1 data-i18n="privacy_policy"></h1>
     </div>
 
-    <main id="main_faq" class="px-4 px-lg-5 mb-5 container">
-        <div id="main_faq_items_div">
-            <div class="faq_item">
-                <div onclick="openAnswer('1')" class="faq_title_div">
-                    <span class="blue" id="i_1"><i class="fa-solid fa-plus fa-2x"></i></span>
-                    <h4 id="faq_title_1" class="faq_title" data-i18n="faq_1_title"></h4>
-                </div>
-                <div class="faq_txt_block" id="faq_txt_1">
-                    <p class="faq_text" data-i18n="faq_1_txt_1"></p>
-                    <p class="faq_text" data-i18n="faq_1_txt_2"></p>
-                    <p class="faq_text" data-i18n="faq_1_txt_3"></p>
-                    <p class="faq_text" data-i18n="faq_1_txt_4"></p>
-                    <p class="faq_text" data-i18n="faq_1_txt_5"></p>
-                    <p class="faq_text" data-i18n="faq_1_txt_6"></p>
-                </div>
-            </div>
-            <div class="faq_item">
-                <div onclick="openAnswer('2')" class="faq_title_div">
-                    <span class="blue" id="i_2"><i class="fa-solid fa-plus fa-2x"></i></span>
-                    <h4 id="faq_title_2" class="faq_title" data-i18n="faq_2_title"></h4>
-                </div>
-                <div class="faq_txt_block" id="faq_txt_2">
-                    <p class="faq_text" data-i18n="faq_2_txt_1"></p>
-                </div>
-            </div>
-            <div class="faq_item">
-                <div onclick="openAnswer('3')" class="faq_title_div">
-                    <span class="blue" id="i_3"><i class="fa-solid fa-plus fa-2x"></i></span>
-                    <h4 id="faq_title_3" class="faq_title" data-i18n="faq_3_title"></h4>
-                </div>
-                <div class="faq_txt_block" id="faq_txt_3">
-                    <p class="faq_text" data-i18n="faq_3_txt_1"></p>
-                    <p class="faq_text" data-i18n="faq_3_txt_2"></p>
-                </div>
-            </div>
-            <div class="faq_item">
-                <div onclick="openAnswer('4')" class="faq_title_div">
-                    <span class="blue" id="i_4"><i class="fa-solid fa-plus fa-2x"></i></span>
-                    <h4 id="faq_title_4" class="faq_title" data-i18n="faq_4_title"></h4>
-                </div>
-                <div class="faq_txt_block" id="faq_txt_4">
-                    <p class="faq_text" data-i18n="faq_4_txt_1"></p>
-                </div>
-            </div>
-            <div class="faq_item">
-                <div onclick="openAnswer('5')" class="faq_title_div">
-                    <span class="blue" id="i_5"><i class="fa-solid fa-plus fa-2x"></i></span>
-                    <h4 id="faq_title_5" class="faq_title" data-i18n="faq_5_title"></h4>
-                </div>
-                <div class="faq_txt_block" id="faq_txt_5">
-                    <p class="faq_text" data-i18n="faq_5_txt_1"></p>
-                    <p class="faq_text" data-i18n="faq_5_txt_2"></p>
-                    <p class="faq_text" data-i18n="faq_5_txt_3"></p>
-                </div>
-            </div>
-            <div class="faq_item">
-                <div onclick="openAnswer('6')" class="faq_title_div">
-                    <span class="blue" id="i_6"><i class="fa-solid fa-plus fa-2x"></i></span>
-                    <h4 id="faq_title_6" class="faq_title" data-i18n="faq_6_title"></h4>
-                </div>
-                <div class="faq_txt_block" id="faq_txt_6">
-                    <p class="faq_text" data-i18n="faq_6_txt_1"></p>
-                    <p class="faq_text" data-i18n="faq_6_txt_2"></p>
-                </div>
-            </div>
-            <div class="faq_item">
-                <div onclick="openAnswer('7')" class="faq_title_div">
-                    <span class="blue" id="i_7"><i class="fa-solid fa-plus fa-2x"></i></span>
-                    <h4 id="faq_title_7" class="faq_title" data-i18n="faq_7_title"></h4>
-                </div>
-                <div class="faq_txt_block" id="faq_txt_7">
-                    <p class="faq_text" data-i18n="faq_7_txt_1"></p>
-                    <p class="faq_text" data-i18n="faq_7_txt_2"></p>
-                </div>
-            </div>
-            <div class="faq_item">
-                <div onclick="openAnswer('8')" class="faq_title_div">
-                    <span class="blue" id="i_8"><i class="fa-solid fa-plus fa-2x"></i></span>
-                    <h4 id="faq_title_8" class="faq_title" data-i18n="faq_8_title"></h4>
-                </div>
-                <div class="faq_txt_block" id="faq_txt_8">
-                    <p class="faq_text" data-i18n="faq_8_txt_1"></p>
-                </div>
-            </div>
+    <main id="privacy_main" class="container px-4 px-lg-5">
+        <div class="privacy_item">
+            <h3 data-i18n="privacy_intro_title"></h3>
+            <p data-i18n="privacy_intro_txt"></p>
+        </div>
+        <div class="privacy_item">
+            <h3 data-i18n="privacy_2_title"></h3>
+            <p data-i18n="privacy_2_txt_1"></p>
+            <p data-i18n="privacy_2_txt_2"></p>
+        </div>
+        <div class="privacy_item">
+            <h3 data-i18n="privacy_3_title"></h3>
+            <p data-i18n="privacy_3_text_1"></p>
+            <p data-i18n="privacy_3_text_2"></p>
+            <p data-i18n="privacy_3_text_3"></p>
+        </div>
+        <div class="privacy_item">
+            <h3 data-i18n="privacy_4_title"></h3>
+            <p data-i18n="privacy_4_text"></p>
+        </div>
+        <div class="privacy_item">
+            <h3 data-i18n="privacy_5_title"></h3>
+            <p data-i18n="privacy_5_text"></p>
+        </div>
+        <div class="privacy_item">
+            <h3 data-i18n="privacy_6_title"></h3>
+            <p data-i18n="privacy_6_text"></p>
         </div>
     </main>
 
@@ -198,22 +140,18 @@
                 &copy; 2024 LittleWorkerBees &nbsp;
             </div>
             <div id="privacy_part">
-                <a href="https://www.linkedin.com/company/little-worker-bees/" target="_blank"><i
-                        class="fa-brands fa-linkedin fa-lg"></i></a>
-                <a href="https://www.facebook.com/littleworkerbees" target="_blank"><i
-                        class="fa-brands fa-square-facebook fa-lg" target="_blank"></i></a>
-                <a href="https://www.instagram.com/littleworkerbees/" target="_blank"><i
-                        class="fa-brands fa-square-instagram fa-lg" target="_blank"></i></a>
+                <a href="https://www.linkedin.com/company/little-worker-bees/" target="_blank"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                <a href="https://www.facebook.com/littleworkerbees" target="_blank"><i class="fa-brands fa-square-facebook fa-lg" target="_blank"></i></a>
+                <a href="https://www.instagram.com/littleworkerbees/" target="_blank"><i class="fa-brands fa-square-instagram fa-lg" target="_blank"></i></a>
             </div>
             <div>
-                Designed by Lulu Linn
+                Designed by <a id="designer_link" href="https://www.instagram.com/_lululinn/" target="_blank">Lulu Linn</a>
             </div>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <script src="js/faq.js"></script>
+    <script src="/js/scripts.js"></script>
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
 

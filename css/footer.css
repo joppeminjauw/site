@@ -98,6 +98,10 @@ footer {
     text-align: center;
 }
 
+#designer_link:hover {
+    text-decoration: underline;
+}
+
 @media only screen and (min-width: 768px) {
     /* TABLET */
 
