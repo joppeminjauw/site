@@ -7,6 +7,13 @@ window.addEventListener('DOMContentLoaded', async () => {
     const match = urlPath.match(/^\/(en|nl)\//);
     const lang = match ? match[1] : userPreferredLanguage;
 
+    if (!match) {
+        const newUrl = `/${userPreferredLanguage}${urlPath}`;
+        window.location.replace(newUrl);
+    }
+
+    changeLanguage(lang);
+
     document.getElementById('languageSelect').addEventListener('change', function () {
         var selectedLanguage = this.value;
         const newUrl = `/${selectedLanguage}${window.location.pathname.substring(3)}`;
@@ -19,8 +26,6 @@ window.addEventListener('DOMContentLoaded', async () => {
         var selectedLanguage = this.value;
         changeLanguage(selectedLanguage);
     });
-
-    changeLanguage(lang);
 
     var navbarShrink = function () {
         const navbarCollapsible = document.body.querySelector('#mainNav');
