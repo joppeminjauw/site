@@ -103,7 +103,7 @@ async function changeLangImages(lang) {
     try {
         var prefix = `/assets/img/homepage/${lang.toUpperCase()}`;
         document.getElementById("team_img").src = `${prefix}_team.png`;
-        // document.getElementById("addition_img").src = `${prefix}_addition.png`; --> no NL-image yet
+        document.getElementById("addition_img").src = `${prefix}_addition.png`;
 
         // header last so it doesn't fail in tour-page
         document.getElementById("header_img").src = `${prefix}_header.png`;
