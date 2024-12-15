@@ -75,13 +75,9 @@ function addBlogPost(item, index, size) {
                 </div>`;
     if (index % 6 === 5 || index === size - 1) {
         blogPost += `</div>`;
-        addPagination();
+        pagination += `<span class="dot" onclick="currentSlide(${page})">${page}</span>`;
         page++;
     }
 
     return blogPost;
-}
-
-function addPagination() {
-    pagination += `<span class="dot" onclick="currentSlide(${page})">${page}</span>`;
 }
